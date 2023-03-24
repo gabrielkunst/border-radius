@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border Radius</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- CONTAINER -->
+    <div class="wrapper">
+      <div class="box"></div>
+      <!-- DISPLAY FOR THE CODE -->
+      <section class="display">
+        <input
+          type="text"
+          readonly
+          class="display-text"
+          value="border-radius: 0;"
+        />
+      </section>
+      <section class="inputs">
+        <!-- ALL -->
+        <label for="all">All</label>
+        <input
+          type="range"
+          min="0"
+          value="0"
+          max="100"
+          class="handle"
+          id="all"
+        />
+        <!-- TOP RIGHT -->
+        <label for="topR">Top-R</label>
+        <input
+          type="range"
+          min="0"
+          value="0"
+          max="100"
+          class="handle"
+          id="topR"
+        />
+        <!-- TOP LEFT -->
+        <label for="topL">Top-L</label>
+        <input
+          type="range"
+          min="0"
+          value="0"
+          max="100"
+          class="handle"
+          id="topL"
+        />
+        <!-- BOTTOM RIGHT -->
+        <label for="botR">Bot-R</label>
+        <input
+          type="range"
+          min="0"
+          value="0"
+          max="100"
+          class="handle"
+          id="botR"
+        />
+        <!-- BOTTOM LEFT -->
+        <label for="botL">Bot-L</label>
+        <input
+          type="range"
+          min="0"
+          value="0"
+          max="100"
+          class="handle"
+          id="botL"
+        />
+      </section>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
